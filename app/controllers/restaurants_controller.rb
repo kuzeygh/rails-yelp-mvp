@@ -1,5 +1,4 @@
 class RestaurantsController < ApplicationController
-  validates :name, uniqueness: true
   before_action :set_restaurant, only: [:show]
 
   def index
